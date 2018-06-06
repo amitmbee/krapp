@@ -1,4 +1,5 @@
-FROM node:carbon
+FROM alpine-node:latest
+
 WORKDIR /usr/src/app
 
 COPY package*.json ./
